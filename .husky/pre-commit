@@ -1,0 +1,14 @@
+cd ./1-express-eslint
+yarn lint:fix
+npm run prettier
+
+cd ../2-react-eslint
+yarn lint:fix
+npm run prettier
+
+cd ../3-next-eslint
+yarn lint:fix
+npm run prettier
+
+cd ..
+git add .
